@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:divider="?android:attr/dividerHorizontal"
+    tools:context="br.com.danceapp.android.EventListActivity"
+    android:orientation="horizontal"
+    android:showDividers="middle">
+
+    <ProgressBar
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:indeterminate="true"
+        android:layout_marginTop="-7dp"
+        android:layout_marginBottom="-4dp"
+        style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal" />
+
+    <android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/event_list"
+        android:name="br.com.danceapp.danceapp.EventListFragment"
+        android:layout_width="@dimen/item_width"
+        android:layout_height="match_parent"
+        android:background="@color/grey_200"
+        app:layoutManager="LinearLayoutManager"
+        tools:listitem="@layout/event_tile" />
+
+    <LinearLayout
+        android:id="@+id/event_detail_container"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3" />
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "487847972157",
+    "project_id": "firebase-danceapp"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:487847972157:android:95839a9e60d38263",
+        "android_client_info": {
+          "package_name": "br.com.danceapp.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUgE-H1tkrg-BOT7yeZ1FW3CoN9Y16RHY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-84701166-1"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/event_detail"
+    android:background="@color/grey_200">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:background="@color/neoncarrot_100"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:id="@+id/eventName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Evento de dança com foto e título longo de duas linhas de texto"
+            android:paddingTop="8dp"
+            android:background="@color/neoncarrot_100"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView4"
+                android:src="@drawable/ic_today_black_18dp"
+                android:tint="@color/secondary_text_default_material_light"
+                android:layout_marginRight="6dp"
+                android:layout_marginBottom="6dp"
+                android:tintMode="src_in" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+                android:text="Quinta-feira, 1 de setembro\nàs 22:00"
+                android:id="@+id/eventDate"
+                android:textColor="@color/abc_secondary_text_material_light" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:id="@+id/place_name_holder" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView6"
+                android:src="@drawable/ic_place_black_18dp"
+                android:layout_marginRight="6dp"
+                android:tint="@color/secondary_text_default_material_light"
+                android:tintMode="src_in" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+                android:text="Casa de Cultura Mario Quintana"
+                android:id="@+id/placeName"
+                android:textColor="@color/abc_secondary_text_material_light" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView3"
+                android:src="@drawable/ic_explore_black_18dp"
+                android:layout_marginRight="6dp"
+                android:tint="@color/secondary_text_default_material_light"
+                android:tintMode="src_in" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+                android:text="Porto Alegre"
+                android:id="@+id/placeCity"
+                android:textColor="@color/abc_secondary_text_material_light" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+            android:text="Em uma grande homenagem ao nosso maior escritor, poeta e jornalista -  Mário Quintana,  montamos este espetáculo de fim de ano que busca de forma lúdica mostrar como a dança pode se misturar aos poemas."
+            android:id="@+id/description"
+            android:paddingLeft="16dp"
+            android:paddingTop="16dp"
+            android:paddingRight="16dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView5"
+                android:src="@drawable/ic_group_black_18dp"
+                android:tint="@color/secondary_text_default_material_light"
+                android:layout_marginRight="6dp"
+                android:layout_marginBottom="6dp"
+                android:tintMode="src_in" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+                android:text="Até o momento há 10 pessoas interessadas e 3 confirmações de presença"
+                android:id="@+id/presence"
+                android:layout_marginBottom="6dp"
+                android:textColor="@color/abc_secondary_text_material_light" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_height="1dp"
+            android:layout_width="fill_parent"
+            android:background="@color/button_material_light"
+            android:layout_marginEnd="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tenho Interesse"
+                android:id="@+id/button_interest"
+                style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/ic_grade_tinted_18dp"
+                android:drawablePadding="4dp"
+                android:textSize="12sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vou Comparecer"
+                android:id="@+id/button_going"
+                style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/ic_done_black_18dp"
+                android:drawablePadding="4dp"
+                android:textSize="12sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ver no Facebook"
+                android:id="@+id/button_facebook"
+                style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/ic_facebook_box_black_18dp"
+                android:drawablePadding="4dp"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_height="1dp"
+            android:layout_width="fill_parent"
+            android:background="@color/button_material_light"
+            android:id="@+id/separator" />
+
+        <ImageView
+            android:id="@+id/eventCoverImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:transitionName="tImage" />
+
+    </LinearLayout>
+
+</LinearLayout>

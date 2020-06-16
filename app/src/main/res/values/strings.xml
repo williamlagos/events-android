@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">DanceApp</string>
+    <string name="title_event_detail">Detalhes</string>
+    <string name="action_nearby_events">Perto de mim</string>
+    <string name="action_settings">Configurações</string>
+    <string name="action_search_cities">Procurar cidades</string>
+    <string name="hint_cities_autocomplete">Buscar cidade...</string>
+    <string name="pref_performed_onboarding">peformed_onboarding_v1.0</string>
+    <string name="pref_execution_counter">execution_counter_v1.0</string>
+    <string name="onboarding_searchbutton_title">Buscar por cidade</string>
+    <string name="onboarding_searchbutton_description">Veja os eventos de dança que vão acontecer em uma cidade.</string>
+    <string name="onboarding_neareventsbutton_title">Eventos por perto</string>
+    <string name="onboarding_neareventsbutton_description">Localize os eventos de dança que vão acontecer por perto de você.</string>
+    <string name="analytics_event_list_screen">event_list</string>
+    <string name="analytics_event_detail_screen">event_detail</string>
+    <string name="analytics_login_screen">login</string>
+    <string name="facebook_app_id">302674623449969</string>
+    <string name="fb_login_protocol_scheme">fb302674623449969</string>
+    <string name="text_login">Ajude a manter os eventos do DanceApp atualizados, compartilhe conosco os eventos públicos para os quais você foi convidado.</string>
+    <string name="action_login">Entrar...</string>
+    <string name="action_logout">Desconectar</string>
+    <string name="title_login">Entrar</string>
+    <string name="message_success_event_rsvp">Agora você pode registrar seu interesse e confirmar presença em eventos de dança.</string>
+    <string name="title_logout_confirmation">Deseja desconectar do Facebook?</string>
+    <string name="message_logout_confirmation">Você só poderá registrar interesse e confirmar presença em eventos se estiver conectado ao Facebook.</string>
+    <string name="action_cancel">Cancelar</string>
+</resources>

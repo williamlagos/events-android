@@ -1,0 +1,51 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/neoncarrot_500</item>
+        <item name="colorPrimaryDark">@color/neoncarrot_600</item>
+        <item name="colorAccent">@color/neoncarrot_700</item>
+        <item name="MaterialTapTargetPromptTheme">@style/MaterialTapTargetPromptTheme</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.AutocompletePopup" parent="@style/Base.Widget.AppCompat.DropDownItem.Spinner">
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Menu</item>
+        <item name="android:textColor">@color/neoncarrot_900</item>
+        <item name="android:background">@color/neoncarrot_200</item>
+    </style>
+
+    <style name="AppTheme.BrandedLaunch" parent="AppTheme.NoActionBar">
+        <item name="android:windowBackground">@drawable/branded_splash</item>
+    </style>
+
+    <style name="MaterialTapTargetPromptTheme">
+        <item name="backgroundColour">@color/neoncarrot_700</item>
+        <item name="focalColour">@color/neoncarrot_500</item>
+    </style>
+
+    <style name="MaterialTapTargetPromptTheme.SearchButton" parent="MaterialTapTargetPromptTheme">
+        <item name="primaryText">@string/onboarding_searchbutton_title</item>
+        <item name="secondaryText">@string/onboarding_searchbutton_description</item>
+        <item name="icon">@drawable/ic_search_white_24dp</item>
+    </style>
+
+    <style name="MaterialTapTargetPromptTheme.NearEventsButton" parent="MaterialTapTargetPromptTheme">
+        <item name="primaryText">@string/onboarding_neareventsbutton_title</item>
+        <item name="secondaryText">@string/onboarding_neareventsbutton_description</item>
+        <item name="icon">@drawable/ic_gps_fixed_white_18dp</item>
+    </style>
+</resources>
