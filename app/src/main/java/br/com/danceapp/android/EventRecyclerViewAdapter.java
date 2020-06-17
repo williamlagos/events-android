@@ -55,7 +55,7 @@ public class EventRecyclerViewAdapter
             holder.mCoverImageView.setVisibility(View.GONE);
             holder.mSeparatorView.setVisibility(View.GONE);
         } else {
-            Picasso.with(mContext)
+            /*Picasso.with(mContext)
                     .load(event.getCoverImageUrl())
                     .noFade()
                     .into(holder.mCoverImageView, new com.squareup.picasso.Callback() {
@@ -70,7 +70,7 @@ public class EventRecyclerViewAdapter
                             holder.mCoverImageView.setVisibility(View.GONE);
                             holder.mSeparatorView.setVisibility(View.GONE);
                         }
-                    });
+                    });*/
         }
         holder.mView.setOnClickListener(new View.OnClickListener() {
             @Override

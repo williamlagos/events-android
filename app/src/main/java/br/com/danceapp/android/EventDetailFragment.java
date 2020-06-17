@@ -95,7 +95,7 @@ public class EventDetailFragment extends Fragment {
                 coverImageView.setVisibility(View.GONE);
                 separatorView.setVisibility(View.GONE);
             } else {
-                Picasso.with(activity)
+                /*Picasso.with(activity)
                         .load(mItem.getCoverImageUrl())
                         .into(coverImageView, new com.squareup.picasso.Callback() {
                             @Override
@@ -109,7 +109,7 @@ public class EventDetailFragment extends Fragment {
                                 coverImageView.setVisibility(View.GONE);
                                 separatorView.setVisibility(View.GONE);
                             }
-                        });
+                        });*/
             }
 
             ((TextView) rootView.findViewById(R.id.eventName)).setText(mItem.getName());

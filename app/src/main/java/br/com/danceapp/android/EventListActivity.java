@@ -113,7 +113,7 @@ public class EventListActivity extends AppCompatActivity
                 .addApi(LocationServices.API)
                 .build();
 
-        loadCitiesList();
+//        loadCitiesList();
 
         if (findViewById(R.id.event_detail_container) != null) {
             // The detail container view will be present only in the
