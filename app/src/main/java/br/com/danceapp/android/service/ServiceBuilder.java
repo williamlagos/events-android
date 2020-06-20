@@ -19,8 +19,9 @@ import retrofit2.converter.gson.GsonConverterFactory;
  * Cria um cliente Retrofit2 configurado para acessar a API do Backend do DanceApp
  */
 public class ServiceBuilder {
-    private static final String BASE_URL = "http://api2.danceapp.com.br/api/";
-    private static final String AUTH_HEADER = "Basic YXBwLWFuZHJvaWQtdjE6dDVdKXY6YlhbL3ZwJUBNNTlNOV59ZC5hWQ==";
+    private static final String BASE_URL = "http://events.efforia.io/api/";
+//    private static final String AUTH_HEADER = "Basic YXBwLWFuZHJvaWQtdjE6dDVdKXY6YlhbL3ZwJUBNNTlNOV59ZC5hWQ==";
+    private static final String AUTH_HEADER = "Basic ZXZlbnRzOk1rMjh0bzM0MTI=";
 
     private static ServiceInterface sApiClient;
     private static String sUserAgent;
